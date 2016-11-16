@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-<meta charset="UTF-8">
-<title></title>
-</head>
-<body>
-<form action="http://www.iut-fbleau.fr/sitebp/get.php" method="get">
-<label for="mail">Mail</label>
-<input type="text" id="mail" required>
-  
- <label for="Sport">Sport</label>
-<input type="checkbox" id="Sport">
-   <label for="Sport">Musique</label>
-<input type="checkbox" id="Sport">
-   <label for="Sport">Lecture</label>
-<input type="checkbox" id="Sport">
-   <label for="Sport">Cinema</label>
-<input type="checkbox" id="Sport">
-   <label for="Sport">Informatique</label>
-<input type="checkbox" id="Sport">
-  <input type="submit" name="soumission" value="envoyer" />
-    <input type="reset" name="soumission" value="reset" />
-
-</form>
-
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+  <form method="get" action="http://www.iut-fbleau.fr/sitebp/get.php" enctype="application/x-www-form-urlencoded" >
+     <label for="mail">Mail</label>
+     <input type="text" id="mail" required></br>
+     <input type="checkbox" name="sport" value="sport">Sport<br>
+     <input type="checkbox" name="musique" value="musique">Musique<br>
+     <input type="checkbox" name="lecture" value="lecture">Lecture<br>
+     <input type="checkbox" name="cinema" value="cinema">Cinema<br>
+     <input type="checkbox" name="informatique" value="informatique">Informatique<br>
+     <input type="submit" name="soumission" value="envoyer" />
+     <input type="reset" name="soumission" value="reset" />
+    </form>
+  </body>
 </html>
 
 
