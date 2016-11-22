@@ -13,9 +13,9 @@
     Date de naissance:<br>
      <input type="date" name="date"required><br>
     Email:<br>
-     <input type="email" name="Email"required><br>
+     <input type="email" name="Email"required ><br>
     Code Postal:<br>
-     <input type="number" name="Codepostal"required><br>
+     <input type="number" name="Codepostal" min ="00000"max="99999" required><br>
     Telephone portable:<br>
      <input type="text" name="telephone"required><br>
     Sexe:<br>
@@ -24,12 +24,12 @@
     Semestre:<br>
      <select name="semestre">
       <option>S1</option>
-      <option>S2</option>
+      <option selected="selected">S2</option>
       <option>S3</option>
        <option>S4</option>
      </select><br>
     Niveau en html:<br>
-       <input type="range" name="niveau" min="0" max="10" required><br>
+       <input value="5" type="range" name="niveau" min="0" max="10" required><br>
     Message:<br>
      <input type="texte" name="message"required><br>
       <input type="submit" name="soumission" value="submit" />
@@ -37,9 +37,3 @@
     </form>
   </body>
 </html>
-
-
-
-
-  
-  
